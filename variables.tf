@@ -40,3 +40,29 @@ variable "subnet_id" {
   description = "The ID of the existing subnet"
   type        = string
 }
+
+variable "client_secret" {
+  description = "azure SPN secret"
+  type        = string
+}
+
+variable "tenant_id" {
+  description = "azure tenat  id"
+  type        = string
+}
+
+variable "subscription_id" {
+  description = "azure Subscription  id"
+  type        = string
+}
+
+variable "client_id" {
+  description = "azure client SPN  id"
+  type        = string
+}
+
+
+
+
+
+
