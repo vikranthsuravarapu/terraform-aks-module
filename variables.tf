@@ -61,6 +61,21 @@ variable "client_id" {
   type        = string
 }
 
+variable "auto_scaling_enabled" {
+  description = "azure client SPN  id"
+  type        = string
+}
+
+variable "min_node_count" {
+  description = "azure client SPN  id"
+  type        = number
+}
+
+variable "max_node_count" {
+  description = "azure client SPN  id"
+  type        = number
+}
+
 
 
 
